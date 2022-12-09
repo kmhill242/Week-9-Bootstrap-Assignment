@@ -1,0 +1,89 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            div {
+                border-style: solid;
+                border-color: black;
+                padding: 5px;
+                margin: 5px;
+            }
+        </style>
+    </head>
+
+    <body class="container">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <a href="index.html" class="navbar-brand">Week 9 Assignment</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="page2.html">Hours</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Products</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav=link dropdown-toggle" id="navbarDropdownMenuLink" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Skis</a>
+                            <a class="dropdown-item" href="#">Snowboards</a>
+                            <a class="dropdown-item" href="#">Accessories</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <p>
+            <h2>Come see us in person to get sized appropriatley for new gear!</h2>
+            </p><br>
+            <p>
+            <h2>We are open 6 days a week!</h2>
+            </p>
+        </div>
+        <div>
+            <table class="table table-dark table-hover">
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+                <tr>
+                    <td>Monday - Friday</td>
+                    <td>9am - 5pm</td>
+                </tr>
+                <tr>
+                    <td>Saturday</td>
+                    <td>10am - 4pm</td>
+                </tr>
+                <tr>
+                    <td>Sunday</td>
+                    <td>Closed</td>
+                </tr>
+            </table>
+
+
+        </div>
+
+
+        <script src="node_modules/jquery/dist/jquery.js"></script>
+        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </body>
+
+    </html>
